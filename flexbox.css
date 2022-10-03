@@ -1,0 +1,27 @@
+div
+{
+border:5px solid yellow;
+align-items: center;
+align-items: flex-start;
+align-items: flex-end;
+display: flex;
+flex-direction: column-reverse;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+justify-content: center;
+justify-content: start;
+justify-content: end;
+justify-content: space-around;
+justify-content: space-between;
+justify-content: space-evenly;
+}
+
+p
+{
+font-size: 30px;
+color:pink;
+background-color: rgb(247, 4, 4);
+height: 200px;
+width: 200px;
+margin:200px
+}

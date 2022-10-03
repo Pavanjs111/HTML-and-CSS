@@ -1,0 +1,18 @@
+h1
+{
+    color: aqua;
+    background-color: black;
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200px;
+}
+
+p
+{
+    color: black;
+    background-color: blue;
+    text-decoration-style: dotted;
+    text-justify: initial;
+    border-top: lawngreen;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jspiders form</title>
+</head>
+<h1>WELCOME TO JAPAN</h1>
+<body>
+    <form action="backend.php">  
+
+    <label for="name">   
+Name :<input type="text" name="name" id="name" placeholder="Username" maxlength="50" minlength="2" required>
+     </label>
+     <br>
+      
+     <br>
+     <label for="email">
+Email :    <input type="email" name="email" id="email" placeholder="Email" required>
+     </label>
+     <br>
+
+     <br>
+     <label for="Password">
+Password: <input type="password" id="password" name="password" placeholder="password" minlength="8" maxlength="15">
+    </label>
+    <br>
+
+    <br>
+     <label for="url">
+         URL: <input type="url" id="url" name="password" placeholder="url">
+    </label>
+    <br>
+
+    <br>
+     <label for="DATE">
+        DOB: <input type="date" id="DATE" name="DATE" placeholder="DATE">
+    </label>
+    <br>
+
+    <br>
+     <label for="TIME">
+    TIME OF LOGIN: <input type="time" id="TIME" name="TIME" placeholder="TIME OF LOGIN">
+    </label>
+    <br>
+ 
+    <br>
+
+    Gender:
+    <fieldset height="150px" width="150">
+        <legend align="center">Select your Gender</legend>
+        <input type="radio" name="r1" />Male
+        <input type="radio" name="r1"  />Female
+        <input type="radio" name="r1"  />Others
+        </fieldset>
+
+
+        Course:<input type="checkbox" select="multiple">
+        <label for="course"> JAVA</label>
+        <input type="checkbox">
+        <label for="course"> Python</label>
+        <input type="checkbox">
+        <label for="course"> SQL</label>
+        <input type="checkbox">
+        <label for="course"> WEB DEVELOPMENT </label>
+        <input type="checkbox">
+        <label for="course"> APTITUDE</label>
+        <br>
+        
+        <br>
+
+
+        <br>
+        <div>
+        <select multiple>
+    <optgroup label="SELECT YOUR STATE">
+        <option>Karnataka</option>
+        <option>Tamil Nadu</option>
+        <option>Kerala</option>
+        <option>Telangana</option>
+        <option>Andra</option>
+    </optgroup>
+    <optgroup label="SELECT YOUR CITY">
+        <option>Bangalore</option>
+        <option>Chennai</option>
+        <option>Trivandram</option>
+        <option>Hyderabad</option>
+        <option>Vizak</option>
+    </optgroup>
+</div>
+<br>
+<hr>
+
+<hr>
+<div>
+<textarea rows="10" cols="30" placeholder="Write Your Comments" ></textarea><br/>
+</div>
+<br>
+
+<br>
+<input type="submit" name="s" value="login">
+<input type="reset" name="r">
+<input type="button" name="b" value="signup">
+
+
+</form>   
+</body>
+</html>

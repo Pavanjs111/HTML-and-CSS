@@ -1,0 +1,29 @@
+p{
+    border:5px solid greenyellow;
+    display:inline;
+}
+
+h1{
+    border: 5px solid red;
+    display: inline;
+}
+
+
+a{
+    border:5px solid pink;
+    display: block;}
+
+img{
+    border:5px solid blueviolet;
+    height:200px;
+    width: 200px;
+    display: block;}
+
+p{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    display:inline-block;
+    margin:60px;
+    padding: 20px;
+}
